@@ -31,14 +31,12 @@
    
    
 ## 4. 터미널에서 다음 명령을 실행하여 가상 환경에서 pip를 업데이트
----
-python -m pip install --upgrade pip
+ - python -m pip install --upgrade pip
       
    
    
 ## 5. VS Code 터미널에서 다음 명령을 실행하여 가상 환경에 Flask를 설치
----
-python -m pip install flask
+ - python -m pip install flask
    
    
    
