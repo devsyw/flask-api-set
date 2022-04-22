@@ -14,23 +14,20 @@
    
 ## 3. 터미널에 아래 명령을 입력
 ### Linux
----
-sudo apt-get install python3-venv    # If needed
-python3 -m venv .venv
-source .venv/bin/activate
+> sudo apt-get install python3-venv    # If needed
+> python3 -m venv .venv
+> source .venv/bin/activate
    
    
    
 ### macOS
----
-python3 -m venv .venv
-source .venv/bin/activate
+> python3 -m venv .venv
+> source .venv/bin/activate
    
    
 ### Windows
----
-py -3 -m venv .venv
-.venv\scripts\activate
+> py -3 -m venv .venv
+> .venv\scripts\activate
    
    
 ## 4. 터미널에서 다음 명령을 실행하여 가상 환경에서 pip를 업데이트
@@ -46,7 +43,7 @@ python -m pip install flask
    
    
 ## 6. app.py 파일 생성 후 아래 코드 입력
-₩₩₩
+``` python
 from flask import Flask
 from datetime import datetime
 import re
@@ -61,9 +58,6 @@ def home():
 def hello_there(name):
     now = datetime.now()
     formatted_now = now.strftime("%A, %d %B, %Y at %X")
-
-    # Filter the name argument to letters only using regular expressions. URL arguments
-    # can contain arbitrary text, so we restrict to safe characters only.
     match_object = re.match("[a-zA-Z]+", name)
 
     if match_object:
@@ -73,7 +67,7 @@ def hello_there(name):
 
     content = "Hello there, " + clean_name + "! It's " + formatted_now
     return content
-₩₩₩
+```
    
    
    
