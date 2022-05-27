@@ -1,4 +1,4 @@
-# flask-api-set(지혜야 사랑해)
+# flask-api-set
 
 ## Setting
  - <https://code.visualstudio.com/docs/python/tutorial-flask> 참조
