@@ -17,7 +17,7 @@ def hello_there(name):
     if match_object:
         clean_name = match_object.group(0)
     else:
-        clean_name = "Friend, 나는 영우"
+        clean_name = "Friend 나는 지혜"
 
     content = "Hello 지혜!, " + clean_name + "! It's " + formatted_now
     return content
