@@ -19,6 +19,6 @@ def hello_there(name):
     else:
         clean_name = "Friend, 나는 영우"
 
-    content = "Hello there, " + clean_name + "! It's " + formatted_now
+    content = "Hello 지혜!, " + clean_name + "! It's " + formatted_now
     return content
 
